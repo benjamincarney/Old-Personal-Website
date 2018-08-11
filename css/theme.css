@@ -446,5 +446,7 @@ section {
 	outline: none;
 }
 img.me {
-    border-radius: 30px;
+    border-radius: 60%;
+    max-width: 100%;
+    height: auto;
 }
