@@ -445,3 +445,6 @@ section {
 	outline:0;
 	outline: none;
 }
+img.me {
+    border-radius: 30px;
+}
