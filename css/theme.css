@@ -353,10 +353,10 @@ img {
 	position:relative;
 	list-style:none;
 	float:left;
-	padding:0;
+	padding: 0;
 }
 .gallery ul li a {
-	display:block;
+	display: block;
 	position:relative;
 	width:100%;
 	height:100%;
