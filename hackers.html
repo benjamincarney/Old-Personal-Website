@@ -34,7 +34,7 @@
 		<i class="fa fa-bars"></i>
 		</button>
 		<a class="navbar-brand page-scroll" href="index.html">
-		Projects
+		Garduino
 		</a>
 	</div>
 	<!-- Collect the nav links, forms, and other content for toggling -->
@@ -72,7 +72,7 @@
 	padding:100px 0 700px 0;
 	text-align:center;
 	color:#fff;
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)), url(../img/CRWC.jpg);
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)), url(../img/MichiganHackers_680x380.jpg);
     /*url('http://unsplash.it/1600/1400?random=9'*/
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -88,10 +88,6 @@
 }
 .intro .intro-body .intro-text {
 	font-size:18px;
-}
-img {
-	max-width:100%;
-    height: auto;
 }
 @media(min-width:768px) {
 	.intro {
@@ -113,14 +109,18 @@ img {
 			letter-spacing:3px;
 	}
 }
+img {
+	max-width:100%;
+    height: auto;
+}
     </style> 
 <div class="intro-body">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
-				<h1 class="brand-heading">Clinton River Watershed</h1>
+				<h1 class="brand-heading">Michigan Hackers iOS App</h1>
 				<p class="intro-text">
-					I spent the summer of 2016 interning at the Clinton River Watershed
+					Core Team Lead
 				</p>
 				<a href="#single-project" class="btn btn-circle page-scroll">
 				<i class="fa fa-angle-double-down animated"></i>
@@ -134,27 +134,43 @@ img {
 <section id="single-project">
 <div class="container content-section text-center">
 	<div class="row">
-		<h2>Summer 2016</h2>
+		<h2>August 2018 - Present</h2>
 		<div class="col-lg-8 col-lg-offset-2">
 			<p>
-				During the Summer of 2016 I interned at the Clinton River Watershed in Rochester Hills, MI as one of three Education and Research Interns. I spent the majority of my time there travelling to different schools among the Southeast Michigan area, giving presentations on storm water pollution and indicators for local stream quality to grade school and middle school children. We would also schedule field trips with these local schools and invite them to our nearby streams for a hands on approach to learning more about stream water quality. We would have students collect and analyze the presence of a wide variety of native macroinvertabrates and use this data to determine the level of pollution present among the given stream that we were studying. Our primary mission was to encourage stream quality awareness among our younger generation and to promote more sustainable day-to-day decision making on a personal level.
+                
+               <!--<img src="img/Garduino/IMG_4874.JPG" alt="Benjamin Carney Garden" class ="respond"> -->
+                
+                During the Spring of 2018 my brother and I decided that we wanted to build a small raised bed garden in our front yard that we could use to grow tomatoes and hot peppers. Inspired by projects we had seen online which used microcontrollers for very practical applications, my brother and I set out to create an automated irrigation system using an arduino microcontroller, a soil moisture sensor, and a motorized solenoid valve.
                 
                 <br /> <br />
                 
-                <img src="img/Tree.JPG" alt="Benjamin Carney Tree" class ="respond">
+                <img src="img/Garduino/IMG_4896.JPG" alt="Benjamin Carney Garden" class ="respond">
+                
                 
                 <br /> <br />
                 
-                In addition to focusing on education, I also spent time performing individual research to gauge the level of pollution among a number of local streams. I was tasked with collecting water samples from local streams and performing tests to determine oxygen and nitrogen levels, pH levels, fecal matter content, and a variety of other markers. I would then use this data to assess stream quality on a scale of 1-100 and report my findings back to my supervisor. Based on the results from each individual study, we would then attempt to identify potential cause factors within the area.
+                The goal was simple: to regulate water flow based on soil moisture content using a solenoid valve. The program we would have to write would need to read in soil moisture data, and based on that data, would result in either the opening or closing of the solenoid valve, thus allowing or preventing the flow of water to enter the garden. 
                 
                 <br /> <br />
                 
-                <img src="img/UnderWater.JPG" alt="Benjamin Carney Tree" class ="respond">
+                <img src="img/Garduino/IMG_4885.JPG" alt="Benjamin Carney Garden" class ="respond">
+                
+                <br /> <br />
+                
+                We had one main water line running from a spigot on the side of our house to the connection you see above. This line supplied us with a constant stream of water that we could then regulate with the white solenoid valve. Wired to the solenoid valve and housed inside of a weather-proof container is the arduino and the various other electrical components that were involved in carrying out the actual functionality of the code that we had written. Attached on the opposite side of the solenoid valve is a soaker hose, which sat beneath the mulch in our garden and when supplied with a steady stream, slowly distributed water to the individual plants within our garden.
+                
+                <br /> <br />
                 
                 
+                <img src="img/Garduino.png" alt="Benjamin Carney Garden" class ="respond">
+                
+                <br /> <br />
+                
+                We wrote our program in C++ and tested and uploaded it to our Arduino board using Arduino's IDE. <a href="https://github.com/benjamincarney/Garduino"><u>Click here</u></a> to the view the code.
+	
 			</p>
 			<p>
-				 
+				
 				<a href="index.html#portfolio" class="btnghost"><i class="fa fa-camera"></i> Back to projects gallery</a>
 			</p>
 		</div>
