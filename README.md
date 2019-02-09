@@ -1,2 +1,2 @@
 # benjamincarney.github.io
-HTML, CSS, and Javascript I used to create my personal website
+HTML, CSS, and Javascript I wrote in the creation of my personal website
