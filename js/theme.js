@@ -18,7 +18,7 @@ $(function() {
     });
 });
 
-// Closes the Responsive Menu on Menu Item Click
+// Closes the Responsive Menu on Menu Item Clic
 $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
