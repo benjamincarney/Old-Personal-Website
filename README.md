@@ -1,2 +1,2 @@
 # Personal Website
-HTML, CSS, and Javascript I wrote in the creation of my personal website
+Source code for my personal website at benjamincarney.github.io
