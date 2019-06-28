@@ -1,2 +1,2 @@
 # Personal Website
-Source code for my personal website at benjamincarney.github.io
+Source code for my personal website @ benjamincarney.github.io
