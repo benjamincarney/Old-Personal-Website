@@ -4,11 +4,11 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="author" content="">
+<meta name="description" content="Software Enginner and Student">
+<meta name="author" content="Benjamin Carney Computer Science Student University of Michigan 2020 Ann Arbor Michigan">
 <meta name="google-site-verification" content="4ydzdcOgnCarxhAxorkxSmFPJjJo5PG-xg6GU7pRhbU" />
-<!-- Global site tag (gtag.js) - Google Analytics --> <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118381893-2"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'UA-118381893-2'); </script>
-<title>Benjamin Carney - University of Michigan</title>
+
+<title>Benjamin Carney - Music</title>
 <!-- Bootstrap Core CSS -->
 <link href="css/bootstrap.min.css" rel="stylesheet">
 <!-- Custom CSS -->
@@ -19,9 +19,9 @@
 <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 <link rel="shortcut icon" type="image/png" href="img/favicon.ico"/>
 <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-<!-- WARNING: Respond.js doesnt work if you view the page via file:// -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/htmlshiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
@@ -34,10 +34,9 @@
 		<i class="fa fa-bars"></i>
 		</button>
 		<a class="navbar-brand page-scroll" href="index.html">
-		Projects
-		</a>
+		Music </a>
 	</div>
-	<!-- Collect the nav links, forms, an other content for toggling -->
+	<!-- Collect the nav links, forms, and other content for toggling -->
 	<div class="collapse navbar-collapse navbar-right navbar-main-collapse">
 		<ul class="nav navbar-nav">
 			<li>
@@ -72,7 +71,7 @@
 	padding:100px 0 700px 0;
 	text-align:center;
 	color:#fff;
-	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)), url(../img/Projects/DelivryLogin.png);
+	background-image:radial-gradient(circle at 50% 50%,rgba(0,0,0,0.46),rgba(0,0,0,0.88)), url(../img/Photography/Cabin.JPG);
     /*url('http://unsplash.it/1600/1400?random=9'*/
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -113,16 +112,21 @@ img {
 	max-width:100%;
     height: auto;
 }
+.respond:hover
+{
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+}
     </style> 
 <div class="intro-body">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-8 col-md-offset-2">
-				<h1 class="brand-heading">Delivry</h1>
+				<h1 class="brand-heading">Music</h1>
 				<p class="intro-text">
-					iOS app developed during the Summer of 2018
 				</p>
-				<a href="#single-project" class="btn btn-circle page-scroll">
+				<a href="#about" class="btn btn-circle page-scroll">
 				<i class="fa fa-angle-double-down animated"></i>
 				</a>
 			</div>
@@ -130,58 +134,29 @@ img {
 	</div>
 </div>
 </header>
-<!-- Project Details Section -->
-<section id="single-project">
-<div class="container content-section text-center">
+<!-- About Section -->
+<section id="about">
+<div class="container content-section text-center" style="width: 100%;">
 	<div class="row">
-		<h2>April 2018 - Present</h2>
 		<div class="col-lg-8 col-lg-offset-2">
-			<p>
-				In the spring of 2018 I joined Delivry LLC, a small, Ann Arbor-based startup as one of three iOS Development Interns that would end up working on building the iOS app for the company. I entered with close to no experience in Swift or  iOS development but quickly became familiar with the conventions necessary to building a functional, ready-for-market application.
+			<p style="width: 100%;">
+
+                <iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=1500087714/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a href="http://bamboomerangdang.bandcamp.com/track/peter-cottontail">Peter Cottontail by Bamboomerang</a></iframe>
+                <iframe style="border: 0; width: 350px; height: 687px;" src="https://bandcamp.com/EmbeddedPlayer/album=17602513/size=large/bgcol=333333/linkcol=0f91ff/transparent=true/" seamless><a href="http://bamboomerangdang.bandcamp.com/album/headwaters">Headwaters by Bamboomerang</a></iframe>
+                <iframe style="border: 0; width: 350px; height: 442px;" src="https://bandcamp.com/EmbeddedPlayer/track=3060198483/size=large/bgcol=333333/linkcol=0f91ff/tracklist=false/transparent=true/" seamless><a href="http://bamboomerangdang.bandcamp.com/track/lately-daily">Lately Daily by Bamboomerang</a></iframe>
                 
-                <br /> <br />
-                
-                <img src="img/Projects/DelivryLoad.png" alt="Benjamin Carney Garden" class ="respond">
-                
-                <br /> <br />
-                
-           During early development stages, I primarily worked on creating the user interface. My tasks included building out login and registration views, password reset views, payment views, and a number of other frontend elements. Along the way I incorporated a number of outside APIs including: Alamofire, Stripe, GooglePlaces, and a few other small-scale, open source projects. In order to avoid conflicts with version control, our team avoided the use of storyboards in Xcode and instead built the app entirely programmatically. As a result, I became familiar with placing UI Elements using auto layout design constraints, allowing for a responsive presentation no matter which platform the app would be presented on.
-                
-                
-                <br /> <br />
-                
-                <img src="img/Projects/DelivryMap.png" alt="Benjamin Carney Garden" class ="respond">
-                
-                <br /> <br />
-            
-                
-            Toward the later stages of development, I began connecting the frontend interface with our backend server, which was written in PHP and SQL. I was tasked with establishing a number of different connections, primarily with user registration and login, user password reset, and payment through the Stripe API. 
-                
-            
-            <br /> <br />
-                
-                <img src="img/Projects/DelivryLogin.png" alt="Benjamin Carney Garden" class ="respond">
-                
-            <br /> <br />
-                
-            The app is currently still a work in progress. I plan to continue working on the app throughout the 2018-2019 school year for an eventual release some time in the Fall of 2018.
-                
-                
-			</p>
-			<p>
-				
-				<a href="/projects.html" class="btnghost"><i class="fa fa-camera"></i> Back to projects gallery</a>
+
 			</p>
 		</div>
 	</div>
 </div>
 </section>
+
 <!-- Footer -->
 <footer>
 <div class="container text-center">
 	<p class="credits">
-		Benjamin Carney &copy; 2018<br/>
-		
+		Copyright &copy; Benjamin Carney 2019<br/>
 	</p>
 </div>
 </footer>
